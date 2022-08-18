@@ -1,0 +1,68 @@
+button{
+    background-color: rgb(30 40 55);
+    border: 1px solid transparent;
+    border-radius: 0.75rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex: 0 0 auto;
+    /* font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 0.5rem;
+    padding: 0.7rem 1rem;
+    text-align: center;
+    margin: 5px;
+}
+
+button:hover{
+    color: black;
+    background: linear-gradient(10deg, hwb(204deg 0% 53% / 55%), white)
+}
+
+.content {
+    padding: 20px;
+    width: 78%;
+    height: 400px;
+    margin-left: 70px;
+    display: inline-block;
+    position: relative;
+    padding-right: 0px;
+    height: auto;
+    text-align: justify;
+    min-width: 706px;
+}
+
+@media only screen and (max-width: 1445px) {
+    .content {
+        width: 70%
+    }
+}
+
+
+.content div {
+    display: inline-block;
+}
+ 
+
+.tool {
+    padding: 20px;
+    width: 78%;
+    height: 400px;
+    margin-left: 70px;
+    display: inline-block;
+    position: relative;
+    padding-right: 0px;
+    height: auto;
+    text-align: justify;
+    min-width: 706px;
+    margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 1445px) {
+    .tool {
+        width: 70%
+    }
+}
+

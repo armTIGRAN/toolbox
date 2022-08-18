@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+.leftMenu {
+    width: 140px;
+    height: 400px;
+    float: left;
+    margin-left: 70px;
+}
+
+.leftMenu ul{
+    list-style-type: none;
+    padding: 22px;
+}
+
+.leftMenu li{
+    color: rgba(17, 24, 39);
+    font-weight:bolder;
+    text-align: left;
+}
+
+.leftMenu li:hover{
+    color:white;
+    background-color: rgba(17, 24, 39);
+    padding: 6px;
+    cursor: pointer;
+}
+
+.leftMenu li:not(:first-child){
+    margin-top: 40px
+}
+
+@media only screen and (max-width: 1065px) {
+    .leftMenu{
+       display: none;
+    }
+}

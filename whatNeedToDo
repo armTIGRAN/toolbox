@@ -1,0 +1,14 @@
+Надо сделать!!!
+2. Автоматический размер textarea. мб с возможностью выбора
+7. prompt div component
+9. fix bug with focusing after input remove
+
+Сделано!!!
+5. Выбрать шрифт +-
+4. Новая нопка очистить содержания всех input
+1. Поправить дизайн при случае, когда input-ов больше 9
+8. remove empty button
+
+Передумано!!!
+6. placeholder только для первого input 
+3. Удержание кнопки remove удаляет все input-ы

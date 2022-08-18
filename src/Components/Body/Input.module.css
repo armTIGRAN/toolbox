@@ -1,0 +1,38 @@
+input {
+    line-height: inherit;
+    color: rgba(17, 24, 39);
+    position: relative;
+    font-size: 1em;
+    background-color: #ccc;
+    padding: 6px;
+    border-radius: 9999em;
+    width: 171px;
+}
+
+.inputDiv{
+    width: 100%;
+}
+
+.bigSpan{
+    font-size: small;
+}
+
+.focusedInput{
+    outline: 3.5px solid rgb(30 40 55);
+    font-weight: bold;
+}
+
+.dataInput{
+    margin: 10px;
+}
+
+.showInput{
+    width: 95%;
+}
+
+.showInput textarea{
+    width: 100%;
+    resize: vertical;
+    font-size: larger;
+    padding: 10px;
+}

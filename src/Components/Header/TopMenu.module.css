@@ -1,0 +1,47 @@
+.topMenu{
+    margin-top: 20px;
+    margin-left: 20px;
+    min-width: 706px;
+    width: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .topMenu{
+        background-color: transparent;
+        box-shadow: none;
+        color:gray;
+        display: none;
+    }
+}
+
+.topMenu ul{
+    float: left;
+    margin: 15px;
+}
+
+.topMenu li{
+    display: inline-block;
+    color: rgba(17, 24, 39);
+    font-weight:bolder;    
+}
+
+.topMenu li:not(:first-child){
+    margin-left: 50px
+}
+
+.topMenu li:hover{
+    color:white;
+    background-color: rgba(17, 24, 39);
+    padding: 3px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1675px) {
+    .topMenu{
+        margin-top: 30px;
+        padding-right: 0px;
+        font-size: medium;
+        margin-left: 76px;
+    }
+}
